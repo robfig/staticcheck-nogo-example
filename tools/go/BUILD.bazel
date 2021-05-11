@@ -1,0 +1,10 @@
+load("@io_bazel_rules_go//go:def.bzl", "nogo")
+
+nogo(
+    name = "nogo",
+    config = "nogo.json",
+    visibility = ["//visibility:public"],
+    deps = [
+        "@com_github_sluongng_staticcheck_codegen//_gen/sa1000",
+    ],
+)
