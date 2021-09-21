@@ -1,11 +1,7 @@
 package main
 
-import "fmt"
+import "time"
 
 func main() {
-	var ch = make(chan int)
-	select {
-	case x := <-ch:
-		fmt.Println(x)
-	}
+	time.Sleep(5)
 }
