@@ -55,6 +55,12 @@ def nogo_dependencies():
         sum = "h1:45sCR5RtlFHMR4UwH9sdQ5TC8v0qDQCHnXt+kaKSTVE=",
         version = "v0.1.0",
     )
+    go_repository(
+        name = "com_github_robfig_staticcheck_codegen",
+        importpath = "github.com/robfig/staticcheck-codegen",
+        sum = "h1:+tQgLIdAz5ATJdESvXnkkcc4ahDx7qiTFEc8S9TVGRM=",
+        version = "v0.0.0-20210921201044-5e276e00a2e8",
+    )
 
     go_repository(
         name = "com_github_rogpeppe_go_internal",

@@ -5,6 +5,6 @@ nogo(
     config = "nogo.json",
     visibility = ["//visibility:public"],
     deps = [
-        "@com_github_sluongng_staticcheck_codegen//_gen/sa1000",
+        "@com_github_robfig_staticcheck_codegen//_gen/sa1000",
     ],
 )

@@ -5,9 +5,9 @@ github.com/kisielk/gotool v1.0.0/go.mod h1:XhKaO+MFFWcvkIS/tQcRk01m1F5IRFswLeQ+o
 github.com/kr/pretty v0.1.0/go.mod h1:dAy3ld7l9f0ibDNOQOHHMYYIIbhfbHSm3C4ZsoJORNo=
 github.com/kr/pty v1.1.1/go.mod h1:pFQYn66WHrOpPYNljwOMqo10TkYh1fy3cYio2l3bCsQ=
 github.com/kr/text v0.1.0/go.mod h1:4Jbv+DJW3UT/LiOwJeYQe1efqtUx/iVham/4vfdArNI=
+github.com/robfig/staticcheck-codegen v0.0.0-20210921201044-5e276e00a2e8 h1:+tQgLIdAz5ATJdESvXnkkcc4ahDx7qiTFEc8S9TVGRM=
+github.com/robfig/staticcheck-codegen v0.0.0-20210921201044-5e276e00a2e8/go.mod h1:cO+LYgzuSRHn5eAC4JZE9kcelJzulY+mAAo2bPsuOws=
 github.com/rogpeppe/go-internal v1.3.0/go.mod h1:M8bDsm7K2OlrFYOpmOWEs/qY81heoFRclV5y23lUDJ4=
-github.com/sluongng/staticcheck-codegen v0.0.0-20201112091853-c143c1606438 h1:tmF8xWYccJ9Zlr9uuOUj+O5uwlpu2daQ+4tXQ4/0zSw=
-github.com/sluongng/staticcheck-codegen v0.0.0-20201112091853-c143c1606438/go.mod h1:2e1Ahdz2HYK/QR0HLa2us3OB41IcbRHpvnPzfMCNGsk=
 github.com/yuin/goldmark v1.1.27/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=
 golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2/go.mod h1:djNgcEr1/C05ACkg1iLfiJU5Ep61QUkGW8qpdssI0+w=
 golang.org/x/crypto v0.0.0-20191011191535-87dc89f01550/go.mod h1:yigFU9vqHzYiE8UmvKecakEJjdnWj3jj499lnFckfCI=
