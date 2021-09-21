@@ -4,13 +4,6 @@ load("@bazel_gazelle//:def.bzl", "gazelle")
 # gazelle:prefix github.com/robfig/staticcheck-nogo-example
 gazelle(name = "gazelle")
 
-go_library(
-    name = "lib",
-    srcs = ["main.go"],
-    importpath = "",
-    visibility = ["//visibility:private"],
-)
-
 go_binary(
     name = "staticcheck-nogo-example",
     embed = [":staticcheck-nogo-example_lib"],
